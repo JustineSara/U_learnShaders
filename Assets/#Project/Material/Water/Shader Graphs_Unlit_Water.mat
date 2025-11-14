@@ -55,8 +55,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FoamSpeed: 0.05
+    - _FoamDistortion: 0.66
+    - _FoamSpeed: 0.1
     - _HorizonPower: 5
+    - _IntersectionFoamDepth: 1.17
     - _LightMoveSpeed: 0.1
     - _QueueControl: 1
     - _QueueOffset: 0
@@ -65,10 +67,10 @@ Material:
     - _RefractionStrength: 0.01
     - _ShallowDepth: 2
     m_Colors:
-    - _DeepColor: {r: 0.2133376, g: 0, b: 0.5283019, a: 1}
+    - _DeepColor: {r: 0.11934852, g: 0.16981131, b: 0.14097543, a: 1}
     - _FoamDirection: {r: 1, g: 1, b: 0, a: 0}
     - _HorizonColor: {r: 0.8207547, g: 0.26147434, b: 0.01161443, a: 1}
-    - _LightColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ShallowColor: {r: 0, g: 0.59025216, b: 1, a: 0.83137256}
+    - _LightColor: {r: 0.29425833, g: 3.6226413, b: 0.17070028, a: 1}
+    - _ShallowColor: {r: 0.16820931, g: 0.26415092, b: 0.21723059, a: 0.7607843}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
