@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-359097538231906633
+--- !u!114 &-1894292937512609236
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,16 +20,16 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Unlit_Water
-  m_Shader: {fileID: -6465566751694194690, guid: 955775d3181783c4b8307ba92222428c, type: 3}
+  m_Name: Shader Graphs_Lit_Cascade_Base
+  m_Shader: {fileID: -6465566751694194690, guid: 98b7c4efbf9d50e42bd1278fe45080f4, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
@@ -55,22 +55,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FoamDistortion: 0.66
-    - _FoamSpeed: 0.1
-    - _HorizonPower: 5
-    - _IntersectionFoamDepth: 1.17
-    - _LightMoveSpeed: 0.1
-    - _QueueControl: 1
+    - _FoamSpeed: 0.2
+    - _QueueControl: 0
     - _QueueOffset: 0
-    - _RefractionOscillation: 0.1
-    - _RefractionScale: 1
-    - _RefractionStrength: 0.01
-    - _ShallowDepth: 2
-    m_Colors:
-    - _DeepColor: {r: 0.11934852, g: 0.16981131, b: 0.14097543, a: 1}
-    - _FoamDirection: {r: 0, g: -1, b: 0, a: 0}
-    - _HorizonColor: {r: 0.8207547, g: 0.26147434, b: 0.01161443, a: 1}
-    - _LightColor: {r: 0.29425833, g: 3.6226413, b: 0.17070028, a: 1}
-    - _ShallowColor: {r: 0.16820931, g: 0.26415092, b: 0.21723059, a: 0.7607843}
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
